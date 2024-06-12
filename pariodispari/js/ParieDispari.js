@@ -21,8 +21,8 @@ function sum (num1, num2){
     }
 
 //Scelta utente
-let scelta = "pari";
-let userNumber = 3;
+let scelta = prompt("pari o dispari");
+let userNumber = parseInt(prompt("Scegli un numero tra 0 e 5"));
 
 //Invocazione funzione randomGenerator
 let pcNumber =  RandomNumberGenerator(0,5);

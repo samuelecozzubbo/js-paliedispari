@@ -1,6 +1,6 @@
 //parola palindroma
 
-//let parola = prompt("Inserisci una parola");
+let parola = prompt("Inserisci una parola");
 let parolaInversa="";
 
 //Funzione inverti parola
