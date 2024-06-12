@@ -21,7 +21,7 @@ function sum (num1, num2){
     }
 
 //Scelta utente
-let scelta;
+let scelta = "pari";
 let userNumber = 3;
 
 //Invocazione funzione randomGenerator
@@ -33,3 +33,10 @@ console.log(sumNumber);
 //Invocazione oddOrEven
 let check = oddOrEven(sumNumber);
 console.log(check);
+
+//controllo vincitore
+if(scelta === check){
+    console.log("Hai vinto");
+} else{
+    console.log("Hai perso");
+}
